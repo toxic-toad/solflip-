@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SolFlip - Coinflip Betting</title>
+  <title>SolFlip</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="container">
-    <h1>🪙 SolFlip</h1>
-    <div class="coin" id="coin"></div>
-
-    <div class="buttons">
-      <button onclick="flipCoin('heads')">Bet on HEADS</button>
-      <button onclick="flipCoin('tails')">Bet on TAILS</button>
+    <h1>SolFlip 🪙</h1>
+    <div class="coin" id="coin">
+      <div class="heads">🪙 HEADS</div>
+      <div class="tails">🪙 TAILS</div>
     </div>
-
-    <div id="result"></div>
+    <div class="buttons">
+      <button onclick="flipCoin('heads')">Bet Heads</button>
+      <button onclick="flipCoin('tails')">Bet Tails</button>
+    </div>
+    <p id="result"></p>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
